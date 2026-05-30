@@ -13,7 +13,7 @@ export interface Book {
   providedIn: 'root'
 })
 export class BooksService {
-  private apiUrl = 'http://localhost:5191/api/books';
+  private apiUrl = 'https://bokapp-backend-production.up.railway.app/api/books';
 
   constructor(private http: HttpClient, private authService: AuthService) {}
 
